@@ -123,18 +123,24 @@ header nav a:hover {
         z-index: 1;
     }
 
-    .header {
-        height: 3rem;
+    header {
+        height: 1rem;
+        width: auto;
+        align-items: center;
     }
 
-    .header nav {
+    header nav {
         margin-top: 0;
         margin-left: 0;
-        height: 25%;
+        height: 1rem;
+        width: 100%;
+        align-self: center;
     }
 
-    .header nav li {
-        font-size: 40%;
+    header nav li {
+        font-size: 1rem;
+        align-self: center;
+        width: auto;
     }
 }
 
@@ -206,9 +212,10 @@ header nav a:hover {
 }
 
 
+
 @media screen and (max-width: 480px) {
     .container-banner-text {
-        bottom: 62%;
+        bottom: 67.4%;
         width: 100%;
         height: 12%;
         margin-left: 0;
@@ -216,7 +223,8 @@ header nav a:hover {
     }
 
     .container-latest-news-header {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        font-weight: 700;
     }
 
     .container-caption {
@@ -263,6 +271,7 @@ header nav a:hover {
     padding-bottom: 2%;
 }
 
+
 @media screen and (max-width: 480px) {
     .fixture-container {
         height: 10em;
@@ -271,6 +280,7 @@ header nav a:hover {
         margin-left: 0;
         margin-right: 0;
         border: 0;
+        margin-bottom: 250px;
     }
 
     .fixture {
@@ -299,6 +309,7 @@ footer .footer-nav-links {
 @media screen and (max-width: 480px) {
     footer {
         height: 5rem;
+        width: auto;
         align-items: center;
     }
 
